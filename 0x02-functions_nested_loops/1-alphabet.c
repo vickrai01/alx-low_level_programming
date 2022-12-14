@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - Entry point
  *
  * Description - this script prints the alphabets
  * in lowercase followed by a new line
  * Return: Always 0
  */
 
-void print_alphabet(void);
+void print_alphabet(void)
 {
-	char c = 'a'
+	char c = 'a';
 
 	while (c <= 'z')
 	{
